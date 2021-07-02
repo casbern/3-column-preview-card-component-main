@@ -1,2 +1,38 @@
+:root {
+  --first-card: hsl(31, 77%, 52%);
+  --second-card: hsl(184, 100%, 22%);
+  --third-card: hsl(179, 100%, 13%);
+  --primary-color: hsla(0, 0%, 100%, 0.75);
+  --secondary-color: hsl(0, 0%, 95%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 1.5rem;
+  height: 100vh;
+}
+
+.btn {
+  text-decoration: none;
+  line-height: 2.5rem;
+  border: 1px solid var(--secondary-color);
+  border-radius: 50px;
+  padding: 2rem 3rem;
+  margin: 20rem;
+}
+
+
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
