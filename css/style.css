@@ -2,6 +2,7 @@
 	--card-orange: hsl(31, 77%, 52%);
 	--card-green: hsl(184, 100%, 22%);
 	--card-dark-green: hsl(179, 100%, 13%);
+	--card-blue: hsl(214, 72%, 45%);
 	--primary-color: hsla(0, 0%, 100%, 0.75);
 	--secondary-color: hsl(0, 0%, 95%);
 }
@@ -88,6 +89,14 @@ body {
 
 .btn--dark-green {
 	color: var(--card-dark-green);
+}
+
+.card--blue {
+	background: var(--card-blue);
+}
+
+.btn--blue {
+	color: var(--card-blue);
 }
 
 .attribution {
